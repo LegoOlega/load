@@ -91,8 +91,20 @@ img{
 	text-decoration: none;
 }
 .popup__title {
+	color: white;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: 700;
+	text-shadow: 4px 0 0 blue, 0 0 10px rgb(41, 76, 190), 0 0 20px rgb(77, 48, 207), 0 0 30px rgb(62, 60, 211), 0 0 40px rgb(100, 54, 226), 0 0 50px rgb(225, 227, 255);
+	text-align: center;
 	font-size: 40px;
 	margin: 0px 0px 1em 0px;
 }
 .popup__text {
+	color: white;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: 700;
+	text-shadow: 4px 0 0 blue, 0 0 10px rgb(41, 76, 190), 0 0 20px rgb(77, 48, 207), 0 0 30px rgb(62, 60, 211), 0 0 40px rgb(100, 54, 226), 0 0 50px rgb(225, 227, 255);
+	text-align: center;
+	font-size: 16px;
+	margin: 0px 0px 1em 0px;
 }

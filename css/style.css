@@ -231,7 +231,22 @@ img:hover {
 }
 
 .popup__title {
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  text-shadow: 4px 0 0 blue, 0 0 10px #294cbe, 0 0 20px #4d30cf, 0 0 30px #3e3cd3, 0 0 40px #6436e2, 0 0 50px #e1e3ff;
+  text-align: center;
   font-size: 40px;
+  margin: 0px 0px 1em 0px;
+}
+
+.popup__text {
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  text-shadow: 4px 0 0 blue, 0 0 10px #294cbe, 0 0 20px #4d30cf, 0 0 30px #3e3cd3, 0 0 40px #6436e2, 0 0 50px #e1e3ff;
+  text-align: center;
+  font-size: 16px;
   margin: 0px 0px 1em 0px;
 }
 /*# sourceMappingURL=style.css.map */
