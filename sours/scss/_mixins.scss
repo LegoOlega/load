@@ -1,0 +1,40 @@
+@mixin adaptiv-font($pcSize, $mobSize) {   // Размер шрифта на макете и размер шрифта на мобильном устройстве
+	$addSize: $pcSize - $mobSize;
+	$addMobSize: $addSize + $addSize  * 0.7;
+	@media (max-width: 767px) {
+		font-size: calc(#{$mobSize + px} + #{$addMobSize} * ((100vw - 320px) / #{$maxwidth}));
+	}
+	@media (min-width: 767px) {
+		font-size: calc(#{$mobSize + px} + #{$addSize} * (100vw / #{$maxwidth}));
+	}
+}
+@mixin adaptiv-width($pcSize, $mobSize) {   // Размер шрифта на макете и размер шрифта на мобильном устройстве
+	$addSize: $pcSize - $mobSize;
+	$addMobSize: $addSize + $addSize  * 0.7;
+	@media (max-width: 767px) {
+		width: calc(#{$mobSize + px} + #{$addMobSize} * ((100vw - 320px) / #{$maxwidth}));
+	}
+	@media (min-width: 767px) {
+		width: calc(#{$mobSize + px} + #{$addSize} * (100vw / #{$maxwidth}));
+	}
+}
+@mixin adaptiv-height($pcSize, $mobSize) {   // Размер шрифта на макете и размер шрифта на мобильном устройстве
+	$addSize: $pcSize - $mobSize;
+	$addMobSize: $addSize + $addSize  * 0.7;
+	@media (max-width: 767px) {
+		height: calc(#{$mobSize + px} + #{$addMobSize} * ((100vw - 320px) / #{$maxwidth}));
+	}
+	@media (min-width: 767px) {
+		height: calc(#{$mobSize + px} + #{$addSize} * (100vw / #{$maxwidth}));
+	}
+}
+@mixin adaptiv-padding($pcSize, $mobSize) {   // Размер шрифта на макете и размер шрифта на мобильном устройстве
+	$addSize: $pcSize - $mobSize;
+	$addMobSize: $addSize + $addSize  * 0.7;
+	@media (max-width: 767px) {
+		padding: calc(#{$mobSize + px} + #{$addMobSize} * ((100vw - 320px) / #{$maxwidth}));
+	}
+	@media (min-width: 767px) {
+		padding: calc(#{$mobSize + px} + #{$addSize} * (100vw / #{$maxwidth}));
+	}
+}
