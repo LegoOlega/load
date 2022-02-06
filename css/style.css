@@ -218,6 +218,7 @@ img:hover {
           transform: translate(0px, -100%);
   -webkit-transition: all 0.8s ease 0s;
   transition: all 0.8s ease 0s;
+  background-size: contain;
 }
 
 .popup__close {
