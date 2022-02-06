@@ -158,6 +158,8 @@ img:hover {
 }
 
 .box {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
