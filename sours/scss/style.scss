@@ -37,7 +37,6 @@ img{
 	}
 }
 .box{
-	flex-wrap: wrap;
 	display: flex;
 	justify-content: space-between;
 }
@@ -114,7 +113,4 @@ img{
 }
 .fon1{
 	background-image: url('../img/som.jpg');
-}
-.fon2{
-	background-image: url('../img/sss.jpg');
 }
