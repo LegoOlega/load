@@ -118,6 +118,10 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+.title h1:hover {
+  text-shadow: 0 0 10px #d5d821, 0 0 20px #ffe601, 0 0 30px #fbff00, 0 0 40px #d9ff00, 0 0 50px #eeff00;
+}
+
 img {
   border-radius: 50%;
   -webkit-box-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white, 0 0 40px white, 0 0 50px white;
