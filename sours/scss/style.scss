@@ -54,14 +54,16 @@ img{
 	left: 0;
 	opacity: 0;
 	visibility: hidden;
-	transition: all 0.8s ease 0s;
 
 }
-.popup:target {
+.popup:target { 
 	opacity: 1;
 	visibility: visible;
 }
-
+.popup:target .popup__content{
+	transform: translate(0px, 0px);
+	opacity: 1;
+}
 .popup__body {
 	min-height: 100%;
 	display: flex;
@@ -75,6 +77,9 @@ img{
 	max-width: 800px;
 	padding: 30px;
 	position: relative;
+	opacity: 0;
+	transform: translate(0px, -100%);
+	transition: all 0.8s ease 0s;
 }
 .popup__close {
 	position: absolute;

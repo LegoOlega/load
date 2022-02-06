@@ -180,13 +180,17 @@ img:hover {
   left: 0;
   opacity: 0;
   visibility: hidden;
-  -webkit-transition: all 0.8s ease 0s;
-  transition: all 0.8s ease 0s;
 }
 
 .popup:target {
   opacity: 1;
   visibility: visible;
+}
+
+.popup:target .popup__content {
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  opacity: 1;
 }
 
 .popup__body {
@@ -209,6 +213,11 @@ img:hover {
   max-width: 800px;
   padding: 30px;
   position: relative;
+  opacity: 0;
+  -webkit-transform: translate(0px, -100%);
+          transform: translate(0px, -100%);
+  -webkit-transition: all 0.8s ease 0s;
+  transition: all 0.8s ease 0s;
 }
 
 .popup__close {
