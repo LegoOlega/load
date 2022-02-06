@@ -14,6 +14,15 @@ $maxwidth: 1200;
 	@include adaptiv-padding(20,5);
 }
 .title {
+	padding: 60px;
+	h1{
+		color: white;
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		font-weight: 700;
+		@include adaptiv-font(70,35);
+		text-shadow: 15px 0 0 blue, 0 0 10px red, 0 0 20px red, 0 0 30px red, 0 0 40px red, 0 0 50px red;
+		text-align: center;
+	}
 }
 img{
 	border-radius: 50%;
